@@ -1,0 +1,352 @@
+/* Resets default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*navigation menu */
+nav ul {
+  list-style: none;
+  background-color: #333;
+  text-align: center;
+  padding: 10px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 15px 20px;
+}
+
+nav ul li a:hover {
+  background-color: #111;
+}
+
+section {
+  padding: 20px;
+  margin: 20px;
+}
+
+/*Hero section */
+.hero {
+  background-image: url("imgs/taniti-banner.jpg");
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+  max-height: 90vh;
+}
+
+section h2 {
+  text-align: center;
+}
+
+/* Container for the activities and offers to enable horizontal scrolling */
+.activities-container,
+.offers-container {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  margin: 0 20px;
+}
+
+/* Turns into flex items*/
+.activity,
+.offer {
+  flex: 0 0 auto;
+  width: 300px;
+  margin-right: 20px;
+  scroll-snap-align: start;
+  text-align: center;
+}
+
+/* Common styling for images within activity and offer */
+.activity img,
+.offer img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+/* Common styling for buttons within activity and offer */
+.activity button,
+.offer button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background-color: #008cba;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Savings/Budget Options Section Styling */
+.savings-options {
+  background-color: #f9f9f9; 
+  text-align: center; 
+  padding: 40px 20px; 
+  margin: 20px 0; 
+}
+
+.savings-options h2 {
+  color: #333; 
+  margin-bottom: 20px; 
+}
+
+.savings-options p {
+  color: #666; 
+  margin-bottom: 30px; 
+}
+
+.budget-link {
+  display: inline-block; 
+  background-color: #008cba; 
+  color: white;
+  padding: 10px 25px;
+  text-decoration: none; 
+  border-radius: 5px; 
+  transition: background-color 0.3s; 
+}
+
+.budget-link:hover {
+  background-color: #005f6b; 
+}
+
+
+.activity-category {
+  margin: 20px;
+  text-align: center;
+}
+
+.activities-container {
+  display: flex;
+  overflow-x: auto;
+  padding: 20px;
+}
+
+.activities-container img {
+  width: 200px; 
+  margin-right: 20px;
+  cursor: pointer; /* Indicates the images are clickable */
+}
+
+.local-map,
+.activity-info {
+  margin: 20px;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+}
+
+.local-map h2,
+.activity-info h2 {
+  margin-bottom: 15px;
+}
+
+.local-map {
+  margin: 20px;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+}
+
+.map-container {
+  width: 100%; 
+  max-height: 400px; 
+  overflow: auto; 
+  border: 1px solid #ccc; 
+}
+
+.accommodations-overview,
+.accommodation-info {
+  margin: 20px;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+}
+
+.accommodations-container {
+  display: flex;
+  overflow-x: auto;
+  padding: 20px;
+}
+
+.accommodation {
+  margin-right: 20px;
+  text-align: center;
+}
+
+.accommodation img {
+  width: 200px; 
+  height: 150px; 
+  object-fit: cover; 
+  border-radius: 5px; 
+  margin-bottom: 10px; 
+
+.featured-accommodations img {
+  width: 200px; 
+  margin-bottom: 10px; 
+  border: 2px solid #008cba; 
+}
+
+.accommodation button {
+  padding: 10px 20px;
+  background-color: #008cba;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.dining-overview,
+.cuisine-filter,
+.local-dining-map {
+  margin: 20px;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+}
+
+.featured-restaurants {
+  display: flex;
+  overflow-x: auto;
+  padding: 20px;
+  gap: 20px;
+}
+
+.restaurant {
+  min-width: 200px;
+  text-align: center;
+  margin-right: 20px;
+}
+
+.restaurant img {
+  width: 200px; 
+  height: 150px; 
+  object-fit: cover; 
+  border-radius: 5px; 
+  margin-bottom: 10px; 
+
+.restaurant button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #008cba;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.map-container img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+.contact-form form {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.contact-form button,
+.booking-info button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #008cba;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.map-container .scrollable-map {
+  overflow: auto;
+  padding: 20px;
+}
+
+.map-container .scrollable-map img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.info-section {
+  margin: 20px;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+}
+
+.faq-section {
+  margin: 20px;
+  padding: 20px;
+  background-color: #e9ecef;
+  border-radius: 8px;
+}
+
+.faq h3 {
+  margin-top: 0;
+}
+
+.faq + .faq {
+  margin-top: 20px;
+}
+
+.prototype-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border: 2px solid #000;
+  display: none; /* Ensure it's hidden by default */
+  z-index: 1000; /* Ensure it appears above other content */
+}
+
+.prototype-popup {
+  position: fixed; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 2px solid #000;
+  z-index: 100; /* Ensure it's above other content */
+  display: none; /* Hidden by default */
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.prototype-popup p {
+  margin-bottom: 20px;
+}
+
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+}

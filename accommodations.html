@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accommodations in Taniti</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="activities.html">Activities & Attractions</a></li>
+          <li><a href="accommodations.html">Accommodations</a></li>
+          <li><a href="dining.html">Dining Guide</a></li>
+          <li><a href="booking.html">Booking</a></li>
+          <li><a href="info.html">More Information</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="accommodations-overview">
+      <h2>Accommodations Overview</h2>
+      <p>
+        Discover a range of accommodations in Taniti, from luxurious hotels to
+        cozy bed and breakfasts. Whether you're looking for a romantic getaway
+        or a family-friendly option, find your perfect stay with us.
+      </p>
+      <label for="accommodation-dropdown">Choose a category:</label>
+      <select id="accommodation-dropdown">
+        <option value="hotels">Hotels</option>
+        <option value="bed_and_breakfasts">Bed & Breakfasts</option>
+        <option value="resorts">Resorts</option>
+        <option value="hostels">Hostels</option>
+        <!-- More accommodations -->
+      </select>
+    </section>
+
+    <section class="featured-accommodations">
+      <div class="accommodations-container">
+        <div class="accommodation">
+          <img src="imgs/hotel1.jpg" alt="Hotel 1" />
+          <button onclick="showPopup()">Hotels</button>
+        </div>
+        <div class="accommodation">
+          <img src="imgs/hotel2.jpg" alt="Hotel 2" />
+          <button onclick="showPopup()">Learn More</button>
+        </div>
+        <div class="accommodation">
+          <img src="imgs/bednbreakfast.jpg" alt="Bed and Breakfast" />
+          <button onclick="showPopup()">Learn More</button>
+        </div>
+        <div class="accommodation">
+          <img src="imgs/resort.jpg" alt="Resort" />
+          <button onclick="showPopup()">Learn More</button>
+        </div>
+        <div class="accommodation">
+          <img src="imgs/hostel.jpg" alt="Hostel" />
+          <button onclick="showPopup()">Learn More</button>
+        </div>
+
+        <!-- Featured accommodations -->
+      </div>
+    </section>
+
+    <section class="accommodation-info">
+      <h2>Why Stay With Us?</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+        feugiat ipsum eros. Vivamus euismod turpis at eros vulputate euismod.
+        Fusce euismod molestie pretium. Nam tristique vel quam a volutpat. Ut
+        cursus, libero eget tempus blandit, orci mi ultrices lectus, vel
+        fermentum ligula risus quis risus. Integer quis dolor rutrum, finibus
+        leo vitae, faucibus metus. Nulla velit urna, dignissim pellentesque ante
+        id, feugiat posuere orci. Donec molestie blandit sapien at dictum.
+        Suspendisse pellentesque mauris eu congue accumsan. Maecenas efficitur
+        mattis mi at tincidunt. Quisque volutpat tellus id aliquam tempus.
+        Aliquam condimentum nisi et sodales luctus. Nulla ac ex dictum, molestie
+        justo nec, scelerisque ex. Ut vitae libero quis nibh aliquam bibendum.
+        Vestibulum blandit interdum maximus. Etiam dignissim sapien eget ante
+        accumsan sagittis. Ut imperdiet leo augue, vitae placerat augue
+        tincidunt ac. Sed in consequat neque. Fusce eu viverra lectus. Cras vel
+        bibendum odio. Suspendisse eget ultricies metus, eget iaculis odio.
+        Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+        inceptos himenaeos. Donec et ex luctus, bibendum dolor ut, vehicula
+        augue. Integer ac magna tristique, imperdiet tellus eget, viverra quam.
+      </p>
+    </section>
+
+    <div id="prototypePopup" class="prototype-popup">
+      <p>Page in Prototype</p>
+      <button onclick="closePopup()">Close</button>
+    </div>
+    <footer>
+      <div class="footer-content">
+        <a href="index.html">Home</a> |
+        <a href="contact.html">Contact</a>
+        <p>
+          Email us at
+          <a href="mailto:contact@tanitiexample.com"
+            >contact@tanitiexample.com</a
+          >
+        </p>
+        <p>&copy; 2024 Taniti Tourism. All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

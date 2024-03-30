@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Activities in Taniti</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="activities.html">Activities & Attractions</a></li>
+          <li><a href="accommodations.html">Accommodations</a></li>
+          <li><a href="dining.html">Dining Guide</a></li>
+          <li><a href="booking.html">Booking</a></li>
+          <li><a href="info.html">More Information</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="activity-category">
+      <label for="activity-dropdown">Choose a category:</label>
+      <select id="activity-dropdown">
+        <option value="all">All Activities</option>
+        <option value="hiking">Hiking</option>
+        <option value="option 3">option</option>
+        <option value="option 4">option</option>
+        <option value="option 5">option</option>
+        <option value="option 6">option</option>
+        <option value="option 7">option</option>
+        <!-- More activities -->
+      </select>
+    </section>
+
+    <section class="featured-activities">
+      <div class="activities-container">
+        <img src="imgs/hiking.jpg" alt="Hiking" onclick="showPopup()" />
+        <img src="imgs/snorkeling.jpg" alt="Snorkeling" onclick="showPopup()" />
+        <img
+          src="imgs/kayaking.jpg"
+          alt="Kayaking in Taniti"
+          onclick="showPopup()"
+        />
+        <img src="imgs/beach.jpg" alt="Beach in Taniti" onclick="showPopup()" />
+        <!-- More images here -->
+      </div>
+    </section>
+
+    <section class="local-map">
+      <h2>Local Attractions</h2>
+      <div class="map-container">
+        <img src="imgs/local-map.png" alt="Local Map of Taniti" />
+      </div>
+      <p>
+        *on a real map, this would have clickable links to local attractions*
+      </p>
+    </section>
+
+    <section class="activity-info">
+      <h2>Activities and Attractions Info</h2>
+      <p>
+        *On an actual website, this would have a longer section of additional
+        information for people before they book. This, however, is a website for
+        class. Therefore, I would like you to enjoy this lorem ipsum text. Lorem
+        ipsum dolor sit amet, consectetur adipiscing elit. Morbi mollis magna
+        lorem, eget lacinia neque porta et. Aenean a est a lectus ullamcorper
+        pretium. Mauris aliquam hendrerit dapibus. Nam gravida eu nibh vel
+        ornare. Sed felis ante, pretium non neque eget, faucibus sodales orci.
+        Nulla dictum sem in dapibus maximus. Etiam aliquet congue nisl, a
+        posuere diam condimentum nec. In hac habitasse platea dictumst. Nunc
+        pulvinar interdum urna. Nam fringilla ultrices aliquam. Curabitur ex
+        libero, gravida in massa vel, eleifend vehicula ante. Vestibulum nec
+        vulputate nisl. Nullam efficitur lacinia tellus, nec accumsan odio
+        rhoncus eget. Nulla hendrerit, arcu ut mollis feugiat, ipsum nisi
+        lobortis enim, at accumsan mi justo sed erat. Morbi suscipit commodo
+        maximus. Morbi fermentum vitae est id porta. Aliquam quis libero nunc.
+        Praesent accumsan maximus vulputate.
+      </p>
+    </section>
+
+    <div id="prototypePopup" class="prototype-popup">
+      <p>Page in Prototype</p>
+      <button onclick="closePopup()">Close</button>
+    </div>
+
+    <footer>
+      <div class="footer-content">
+        <a href="index.html">Home</a> |
+        <a href="contact.html">Contact</a>
+        <p>
+          Email us at
+          <a href="mailto:contact@tanitiexample.com"
+            >contact@tanitiexample.com</a
+          >
+        </p>
+        <p>&copy; 2024 Taniti Tourism. All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dining Guide in Taniti</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a
+                </li>
+                <li><a href="activities.html">Activities & Attractions</a></li>
+                <li><a href="accommodations.html">Accommodations</a></li>
+                <li><a href="dining.html">Dining Guide</a></li>
+                <li><a href="booking.html">Booking</a></li>
+                <li><a href="info.html">More Information</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+      <section class="dining-overview">
+        <h2>Welcome to Taniti's Dining Guide</h2>
+        <p>
+          Explore the best culinary experiences, from traditional Taniti cuisine
+          to international flavors, suited for every palate.
+        </p>
+      </section>
+
+      <section class="cuisine-filter">
+        <label for="cuisine-dropdown">Filter by Cuisine:</label>
+        <select id="cuisine-dropdown">
+          <option value="all">All Cuisines</option>
+          <option value="italian">Italian</option>
+          <option value="seafood">Seafood</option>
+          <option value="cuban">Cuban</option>
+          <option value="japanese">Japanese</option>
+          <option value="korean">Korean</option>
+          <option value="mediterranean ">Mediterranean</option>
+          <!-- Additional cuisine here -->
+        </select>
+      </section>
+
+      <section class="featured-restaurants">
+        <div class="restaurant">
+          <img src="imgs/italian.jpg" alt="Italian" />
+          <h3>Italian</h3>
+          <button onclick="showPopup()">Learn More</button>
+        </div>
+        <div class="restaurant">
+          <img src="imgs/seafood.jpg" alt="Seafood" />
+          <h3>Seafood</h3>
+          <button onclick="showPopup()">Learn More</button>
+        </div>
+        <div class="restaurant">
+          <img src="imgs/japanese.jpg" alt="Japanese" />
+          <h3>Japanese</h3>
+          <button onclick="showPopup()">Learn More</button>
+        </div>
+        <div class="restaurant">
+          <img src="imgs/korean.jpg" alt="Korean" />
+          <h3>Korean</h3>
+          <button onclick="showPopup()">Learn More</button>
+        </div>
+        <div class="restaurant">
+          <img src="imgs/mediterranean.jpg" alt="Mediterranean" />
+          <h3>Mediterranean</h3>
+          <button onclick="showPopup()">Learn More</button>
+        </div>
+        <!-- Additional restaurants here -->
+      </section>
+
+      <section class="local-dining-map">
+        <h2>Find Restaurants on the Map</h2>
+        <div class="map-container">
+          <img src="imgs/local-map.png" alt="Local Dining Map" />
+        </div>
+      </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+          <a href="index.html">Home</a> |
+          <a href="contact.html">Contact</a>
+          <p>
+            Email us at
+            <a href="mailto:contact@tanitiexample.com"
+              >contact@tanitiexample.com</a
+            >
+          </p>
+        </div>
+        <footer>
+            <div class="footer-content">
+                <a href="index.html">Home</a> |
+                <a href="contact.html">Contact</a>
+                <p>Email us at <a href="mailto:contact@tanitiexample.com">contact@tanitiexample.com</a></p>
+                <p>&copy; 2024 Taniti Tourism. All rights reserved.</p>
+            </div>
+        </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

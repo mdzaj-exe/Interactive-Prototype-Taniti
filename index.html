@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taniti - Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a
+                </li>
+                <li><a href="activities.html">Activities & Attractions</a></li>
+                <li><a href="accommodations.html">Accommodations</a></li>
+                <li><a href="dining.html">Dining Guide</a></li>
+                <li><a href="booking.html">Booking</a></li>
+                <li><a href="info.html">More Information</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="featured-activities">
+            <h2>Featured Activities</h2>
+            <div class="activities-container">
+                <div class="activity">
+                    <img src="imgs/hiking.jpg" alt="Hiking in Taniti">
+                    <h3>Hiking</h3>
+                    <a href="activities.html"><button>Learn More</button></a>
+                </div>
+                <div class="activity">
+                    <img src="imgs/snorkeling.jpg" alt="Snorkeling in Taniti">
+                    <h3>Snorkeling</h3>
+                    <a href="activities.html"><button>Learn More</button>
+                </div></a>
+                <div class="activity">
+                    <img src="imgs/kayaking.jpg" alt="Kayaking in Taniti">
+                    <h3>Kayaking</h3>
+                    <button onclick="showPopup()">Learn More</button>
+                </div>
+                <div class="activity">
+                    <img src="imgs/aquarium.jpg" alt="Aquariums in Taniti">
+                    <h3>Aquarium</h3>
+                    <button onclick="showPopup()">Learn More</button>
+                </div>
+                <!-- More activities -->
+            </div>
+        </section>
+        <section class="savings-options">
+            <h2>Savings Options</h2>
+            <p>Explore our curated list of budget-friendly choices for your stay and activities in Taniti.</p>
+            <button onclick="showPopup()" class="budget-link">View Budget Options</button>
+        </section>
+        <section class="special-offers">
+            <h2>Special Services</h2>
+            <div class="offers-container">
+                <div class="offer">
+                    <img src="imgs/honeymoon.jpg" alt="Honeymoon package">
+                    <h3>Honeymoon Package</h3>
+                    <button onclick="showPopup()">Book Now</button>
+                </div>
+                <div class="offer">
+                    <img src="imgs/business.jpg" alt="Business services">
+                    <h3>Business Services</h3>
+                    <button onclick="showPopup()">Learn More</button>
+                </div>
+                <div class="offer">
+                    <img src="imgs/spa.jpg" alt="Business services">
+                    <h3>Spa Services</h3>
+                    <button onclick="showPopup()">Learn More</button>
+                </div>
+                <!-- More offers here -->
+            </div>
+        </section>   
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <a href="index.html">Home</a> |
+            <a href="contact.html">Contact</a>
+            <p>Email us at <a href="mailto:contact@tanitiexample.com">contact@tanitiexample.com</a></p>
+            <p>&copy; 2024 Taniti Tourism. All rights reserved.</p>
+        </div>
+    </footer>
+    <div id="prototypePopup" class="prototype-popup">
+        <p>Page in Prototype</p>
+        <p>Purpose of Page: Give Further Info</p>
+        <button onclick="closePopup()">Close</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

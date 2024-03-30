@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact and Booking Information</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a
+                </li>
+                <li><a href="activities.html">Activities & Attractions</a></li>
+                <li><a href="accommodations.html">Accommodations</a></li>
+                <li><a href="dining.html">Dining Guide</a></li>
+                <li><a href="booking.html">Booking</a></li>
+                <li><a href="info.html">More Information</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="booking-info">
+            <h2>Booking Information</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus
+              accusamus, recusandae ipsum maxime necessitatibus in ea nostrum nam
+              iusto tempore alias sint asperiores repellat? Beatae odit deserunt
+              iure eos maiores. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, laboriosam excepturi? Saepe inventore expedita quidem laboriosam. Similique nostrum culpa, officia ducimus expedita reiciendis distinctio. Sint aspernatur hic aut tempora explicabo.
+            </p>
+            <button onclick="showPopup()">Book Here!</button>
+          </section>
+      <section class="contact-form">
+        <h2>Contact Us</h2>
+        <form>
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea
+            name="message"
+            placeholder="Your Message"
+            required
+          ></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+
+
+
+      <section class="map-container">
+        <h2>Find Us</h2>
+        <div class="scrollable-map">
+          <img src="imgs/local-map.png" alt="Local Map" />
+        </div>
+      </section>
+
+      <!-- Other sections -->
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <a href="index.html">Home</a> |
+        <a href="contact.html">Contact</a>
+        <p>
+          Email us at
+          <a href="mailto:contact@tanitiexample.com"
+            >contact@tanitiexample.com</a
+          >
+        </p>
+        <p>&copy; 2024 Taniti Tourism. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <div id="prototypePopup" class="prototype-popup">
+      <p>Page in Prototype</p>
+      <button onclick="closePopup()">Close</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
