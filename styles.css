@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 
-/*navigation menu */
+/* Navigation menu */
 nav ul {
   list-style: none;
   background-color: #333;
@@ -32,7 +32,7 @@ section {
   margin: 20px;
 }
 
-/*Hero section */
+/* Hero section */
 .hero {
   background-image: url("imgs/taniti-banner.jpg");
   background-size: cover;
@@ -59,7 +59,7 @@ section h2 {
   margin: 0 20px;
 }
 
-/* Turns into flex items*/
+/* Turns into flex items */
 .activity,
 .offer {
   flex: 0 0 auto;
@@ -92,36 +92,35 @@ section h2 {
 
 /* Savings/Budget Options Section Styling */
 .savings-options {
-  background-color: #f9f9f9; 
-  text-align: center; 
-  padding: 40px 20px; 
-  margin: 20px 0; 
+  background-color: #f9f9f9;
+  text-align: center;
+  padding: 40px 20px;
+  margin: 20px 0;
 }
 
 .savings-options h2 {
-  color: #333; 
-  margin-bottom: 20px; 
+  color: #333;
+  margin-bottom: 20px;
 }
 
 .savings-options p {
-  color: #666; 
-  margin-bottom: 30px; 
+  color: #666;
+  margin-bottom: 30px;
 }
 
 .budget-link {
-  display: inline-block; 
-  background-color: #008cba; 
+  display: inline-block;
+  background-color: #008cba;
   color: white;
   padding: 10px 25px;
-  text-decoration: none; 
-  border-radius: 5px; 
-  transition: background-color 0.3s; 
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
 }
 
 .budget-link:hover {
-  background-color: #005f6b; 
+  background-color: #005f6b;
 }
-
 
 .activity-category {
   margin: 20px;
@@ -135,7 +134,7 @@ section h2 {
 }
 
 .activities-container img {
-  width: 200px; 
+  width: 200px;
   margin-right: 20px;
   cursor: pointer; /* Indicates the images are clickable */
 }
@@ -153,18 +152,11 @@ section h2 {
   margin-bottom: 15px;
 }
 
-.local-map {
-  margin: 20px;
-  padding: 20px;
-  background-color: #f4f4f4;
-  border-radius: 8px;
-}
-
 .map-container {
-  width: 100%; 
-  max-height: 400px; 
-  overflow: auto; 
-  border: 1px solid #ccc; 
+  width: 100%;
+  max-height: 400px;
+  overflow: auto;
+  border: 1px solid #ccc;
 }
 
 .accommodations-overview,
@@ -187,16 +179,17 @@ section h2 {
 }
 
 .accommodation img {
-  width: 200px; 
-  height: 150px; 
-  object-fit: cover; 
-  border-radius: 5px; 
-  margin-bottom: 10px; 
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
 
 .featured-accommodations img {
-  width: 200px; 
-  margin-bottom: 10px; 
-  border: 2px solid #008cba; 
+  width: 200px;
+  margin-bottom: 10px;
+  border: 2px solid #008cba;
 }
 
 .accommodation button {
@@ -230,11 +223,12 @@ section h2 {
 }
 
 .restaurant img {
-  width: 200px; 
-  height: 150px; 
-  object-fit: cover; 
-  border-radius: 5px; 
-  margin-bottom: 10px; 
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
 
 .restaurant button {
   margin-top: 10px;
@@ -250,7 +244,6 @@ section h2 {
   height: auto;
   display: block;
 }
-
 
 .contact-form form {
   max-width: 500px;
@@ -278,17 +271,6 @@ section h2 {
   color: white;
   border: none;
   cursor: pointer;
-}
-
-.map-container .scrollable-map {
-  overflow: auto;
-  padding: 20px;
-}
-
-.map-container .scrollable-map img {
-  max-width: 100%;
-  height: auto;
-  display: block;
 }
 
 .info-section {
@@ -321,27 +303,14 @@ section h2 {
   background-color: white;
   padding: 20px;
   border: 2px solid #000;
-  display: none; /* Ensure it's hidden by default */
-  z-index: 1000; /* Ensure it appears above other content */
-}
-
-.prototype-popup {
-  position: fixed; 
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: white;
-  border: 2px solid #000;
-  z-index: 100; /* Ensure it's above other content */
-  display: none; /* Hidden by default */
-  padding: 20px;
+  z-index: 100; /* Corrected to ensure it's correctly layered */
+  display: none; /* Ensured it's hidden by default */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .prototype-popup p {
   margin-bottom: 20px;
 }
-
 
 footer {
   background-color: #333;
